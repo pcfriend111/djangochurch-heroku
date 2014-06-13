@@ -15,19 +15,19 @@ django-storages==1.1.8
 boto==2.29.1
 
 # Assets
--e git+https://github.com/blancltd/blanc-basic-assets.git#egg=blanc_basic_assets-dev
+blanc-basic-assets==0.3
 easy-thumbnails==2.0.1
 
 # News
--e git+https://github.com/blancltd/blanc-basic-news.git#egg=blanc_basic_news-dev
+blanc-basic-news==0.3
 
 # Pages
 django-mptt==0.6.1
 django-mptt-admin==0.1.8
 six==1.6.1
--e git+https://github.com/blancltd/blanc-basic-pages.git#egg=blanc_basic_pages-dev
+blanc-basic-pages==0.3
 
 # Events
 icalendar==3.6.2
 python-dateutil==2.2
--e git+https://github.com/blancltd/blanc-basic-events.git#egg=blanc_basic_events-dev
+blanc-basic-events==0.3
