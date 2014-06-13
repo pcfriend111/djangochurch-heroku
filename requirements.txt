@@ -7,8 +7,8 @@ Pillow==2.4.0
 dj-database-url==0.3.0
 gunicorn==18.0
 pystache==0.5.4
--e git+https://github.com/kennethreitz/dj-static.git#egg=dj-static_dev
-static==1.0.2
+-e git+https://github.com/kennethreitz/dj-static.git@d818b56cf0f9a880fd9572b722fdac8680903fb2#egg=dj-static_dev
+static3==0.5
 
 # S3 storage
 django-storages==1.1.8
