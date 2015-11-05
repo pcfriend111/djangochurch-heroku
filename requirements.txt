@@ -16,7 +16,7 @@ boto==2.32.1
 
 # Assets
 blanc-basic-assets==0.3
-easy-thumbnails==2.1
+sorl-thumbnail==12.3
 
 # News
 blanc-basic-news==0.3

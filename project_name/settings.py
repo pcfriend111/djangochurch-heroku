@@ -40,7 +40,7 @@ INSTALLED_APPS = (
     'django_mptt_admin',
     'blanc_basic_pages',
     'blanc_basic_events',
-    'easy_thumbnails',
+    'sorl.thumbnail',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -201,10 +201,9 @@ AWS_S3_SECURE_URLS = False
 GZIP_CONTENT_TYPES = ()
 
 # Thumbnail generation
-THUMBNAIL_SUBDIR = 'thumbs'
-THUMBNAIL_PRESERVE_EXTENSIONS = ('png',)
+THUMBNAIL_PREFIX = 'thumbs/'
+THUMBNAIL_PRESERVE_FORMAT = True
 THUMBNAIL_QUALITY = 100
-THUMBNAIL_DEFAULT_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
 
 ## Django Church applications
 # - Change the uncommented sections
